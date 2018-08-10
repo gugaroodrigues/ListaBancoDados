@@ -7,7 +7,7 @@ use alunos_banco;
 CREATE TABLE alunos(
 id             int AUTO_INCREMENT PRIMARY key,
 nome           varchar(100),
-maticula       varchar(100),
+matricula       varchar(100),
 nota1          float,
 nota2          float,
 nota3          float,

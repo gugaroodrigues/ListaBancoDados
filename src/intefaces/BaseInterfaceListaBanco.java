@@ -13,6 +13,8 @@ public interface BaseInterfaceListaBanco {
     
     void gerarTela();
     
+    void instanciarComponentes();
+    
     void adicionarComponentes();
     
     void gerarLocalizacoes();
@@ -25,9 +27,9 @@ public interface BaseInterfaceListaBanco {
     
     void acaoExcluir();
     
-    void listarAlunos();
+    void acaoListarAlunos();
     
-    void gerarMedia();
+    void acaoGerarMedia();
     
     
 }
